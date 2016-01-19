@@ -20,57 +20,57 @@
     振幅)。注意图中所用的三极管与实验实际使用的略有不同，故这里的计算或
     仿真结果仅供参考。
 
-![讲义上的电路](work06/bjt1.pdf) {#fig:ex4notes}
+![讲义上的电路](work06/bjt1.pdf){#fig:ex4notes}
 
-![静态工作点一](work06/bjt1DC.pdf) {#fig:ex4notesDC}
+![静态工作点一](work06/bjt1DC.pdf){#fig:ex4notesDC}
 
-![输出波形一](work06/bjt1wave.pdf) {#fig:ex4noteswave}
+![输出波形一](work06/bjt1wave.pdf){#fig:ex4noteswave}
 
 2.  思考一下不采用负电源会怎么样？图 [@fig:ex4ce]、[@fig:ex4cedc]、
     [@fig:ex4cewave] 分别是该方案电路图、其静态工作点及输出波形。
 
-![单电源共射极放大电路](work06/bjt2.pdf) {#fig:ex4ce}
+![单电源共射极放大电路](work06/bjt2.pdf){#fig:ex4ce}
 
-![静态工作点二](work06/bjt2DC.pdf) {#fig:ex4cedc}
+![静态工作点二](work06/bjt2DC.pdf){#fig:ex4cedc}
 
-![输出波形二](work06/bjt2wave.pdf) {#fig:ex4cewave}
+![输出波形二](work06/bjt2wave.pdf){#fig:ex4cewave}
 
 3.  一般资料上给出的共射极放大电路如图 [@fig:ex4ref] 所示。其静态工作
     点及输出波形分别如图 [@fig:ex4refdc] 和 [@fig:ex4refwave] 所示。
     与前面的电路进行比较。
 
-![无基极串联电阻电路](work06/bjt3.pdf) {#fig:ex4ref}
+![无基极串联电阻电路](work06/bjt3.pdf){#fig:ex4ref}
 
-![静态工作点三](work06/bjt3DC.pdf) {#fig:ex4refdc}
+![静态工作点三](work06/bjt3DC.pdf){#fig:ex4refdc}
 
-![输出波形三](work06/bjt3wave.pdf) {#fig:ex4refwave}
+![输出波形三](work06/bjt3wave.pdf){#fig:ex4refwave}
 
 4.  图 [@fig:ex4ref] 中的 R5 改为 \SI{92.5}{\kilo\ohm}，其静态工作点如图
     [@fig:ex4refdc2] 所示。输入信号振幅为 \SI{5}{mV} 时的输出波形如图
     [@fig:ex4refwave2]。
 
-![静态工作点四](work06/bjt4DC.pdf) {#fig:ex4refdc2}
+![静态工作点四](work06/bjt4DC.pdf){#fig:ex4refdc2}
 
-![输出波形四](work06/bjt4wave.pdf) {#fig:ex4refwave2}
+![输出波形四](work06/bjt4wave.pdf){#fig:ex4refwave2}
 
 5.  图 [@fig:ex4ref] 中的 R5 改为 \SI{85}{k\ohm}，其静态工作点如图
     [@fig:ex4refdc3] 所示。输入信号振幅为 \SI{10}{mV} 时的输出波形如图
     [@fig:ex4refwave3]。
 
-![静态工作点五](work06/bjt5DC.pdf) {#fig:ex4refdc3}
+![静态工作点五](work06/bjt5DC.pdf){#fig:ex4refdc3}
 
-![输出波形五](work06/bjt5wave.pdf) {#fig:ex4refwave3}
+![输出波形五](work06/bjt5wave.pdf){#fig:ex4refwave3}
 
 6.  将图 [@fig:ex4ce] 中的 R2 改为与 C1 串联，如图 [@fig:ex4hi] 所示。调
     整基极偏置电阻，使得集电极电流 I~CQ~ 为 \SI{2}{mA}，其静态工作点如图
     [@fig:ex4hidc]，输出波形如图 [@fig:ex4hiwave]。注意比较以上 2、3、4、5
     所述各电路在静态工作点、放大倍数和可接受的输入电压的区别。
 
-![输入端串联电阻的电路](work06/bjt6.pdf) {#fig:ex4hi}
+![输入端串联电阻的电路](work06/bjt6.pdf){#fig:ex4hi}
 
-![静态工作点六](work06/bjt6DC.pdf) {#fig:ex4hidc}
+![静态工作点六](work06/bjt6DC.pdf){#fig:ex4hidc}
 
-![输出波形六](work06/bjt6wave.pdf) {#fig:ex4hiwave}
+![输出波形六](work06/bjt6wave.pdf){#fig:ex4hiwave}
 
 对以上各电路做出思考和分析。注意实验时采用**图 [@fig:ex4ce]
 ($I_{\mathrm{CQ}}=\SI{1.5}{mA}$) 或图 [@fig:ex4hi]
